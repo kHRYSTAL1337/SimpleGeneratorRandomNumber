@@ -1,0 +1,44 @@
+body {
+    background-color: #fafafa;
+    color: #757575;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+    background-color: #f0db4f;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h1 {
+    display: inline-block;
+    color: #323330;
+    margin: 1rem auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 1em auto;
+}
+
+.container button {
+    margin-left: 8px;
+}
+
+.container input {
+    margin-left: 8px;
+}
+
+.completedNumber {
+    position: absolute;
+    top: 12%;
+    right: 43%;
+}
